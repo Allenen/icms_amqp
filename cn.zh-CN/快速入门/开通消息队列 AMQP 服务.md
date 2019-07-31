@@ -21,7 +21,7 @@
 
     建议先购买[资源包](https://common-buy.aliyun.com/?commodityCode=onsproxy_bag#/buy)，使用更优惠。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453872053930_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453873053930_zh-CN.png)
 
 3.  在购买页按需选择规格后，单击**立即购买**并支付费用后，即可成功开通消息队列 AMQP 服务。
 
@@ -34,7 +34,7 @@
 
 2.  在云产品开通页，选择**我已阅读并同意 《消息队列 AMQP服务协议》**，并单击**立即开通**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453872153931_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453873053931_zh-CN.png)
 
 
 ## 后续操作 {#section_60r_ztx_97e .section}
