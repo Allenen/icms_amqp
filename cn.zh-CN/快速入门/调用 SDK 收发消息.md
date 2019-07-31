@@ -6,9 +6,9 @@
 
 ## 收发消息流程 {#section_si4_7bf_8bq .section}
 
-调用消息队列 AMQP 的 Java SDK 收发消息的流程如下图所示。
+调用消息队列 AMQP 的 Java SDK 收发消息的流程如[图 1](#fig_gqn_1eo_cw6) 所示。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095284/156453880653933_zh-CN.png)
+![](images/53933_zh-CN.png "收发消息流程")
 
 ## 前提条件 {#section_cyg_x9r_zro .section}
 
@@ -44,7 +44,6 @@
                <artifactId>mq-amqp-client</artifactId>
                <version>1.0.4</version>
           </dependency>
-    					
     ```
 
     `mq-amqp-client` 依赖的更多信息，请访问 [mq-amqp-client 源码](https://github.com/AliwareMQ/mq-amqp-client)。
@@ -117,8 +116,6 @@ public class AliyunCredentialsProvider implements CredentialsProvider {
         return null;
     }
 }
-
-			
 ```
 
 ## 配置 Binding Key {#section_lzw_mzg_z8q .section}
@@ -171,8 +168,6 @@ public class BindingKeyTest {
         connection.close();
     }
 }
-
-			
 ```
 
 ## 发送消息 {#section_x0h_l0l_ydm .section}
@@ -226,7 +221,6 @@ public class ProducerTest {
 
     }
 }
-			
 ```
 
 **结果验证**
@@ -300,8 +294,6 @@ public class ConsumerTest {
         connection.close();
     }
 }
-
-			
 ```
 
 ## 结果验证 {#section_cxb_3c5_8ti .section}
