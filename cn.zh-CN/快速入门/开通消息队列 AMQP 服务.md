@@ -21,7 +21,7 @@
 
     建议先购买[资源包](https://common-buy.aliyun.com/?commodityCode=onsproxy_bag#/buy)，使用更优惠。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453873053930_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453916753930_zh-CN.png)
 
 3.  在购买页按需选择规格后，单击**立即购买**并支付费用后，即可成功开通消息队列 AMQP 服务。
 
@@ -34,7 +34,7 @@
 
 2.  在云产品开通页，选择**我已阅读并同意 《消息队列 AMQP服务协议》**，并单击**立即开通**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453873053931_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095282/156453916753931_zh-CN.png)
 
 
 ## 后续操作 {#section_60r_ztx_97e .section}
@@ -45,7 +45,7 @@
 
 -   [调用 SDK 收发消息](cn.zh-CN/快速入门/调用 SDK 收发消息.md#)
 
-    主要是以 Java SDK 为例说明如何收发消息，其他语言或框架的 SDK 请参见 [../../../../dita-oss-bucket/SP\_603/DNICMS19101810/ZH-CN\_TP\_1095286.md\#](../../../../cn.zh-CN/.md#)。
+    主要是以 Java SDK 为例说明如何收发消息，其他语言或框架的 SDK 请参见 [Demo 工程与 SDK 下载](../../../../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
 
 
 ## 更多信息 {#section_ha3_47p_r47 .section}
