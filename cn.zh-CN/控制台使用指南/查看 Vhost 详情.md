@@ -4,14 +4,12 @@
 
 ## 前提条件 {#section_z2b_5t2_q4g .section}
 
--   您所创建的 Vhost 所在地域（Region）为**华北2（上海）**。
-
 -   所需查询的 Vhost 下的 Connection 已启动。
 
 
 ## 操作步骤 {#section_8zw_i8i_ayo .section}
 
-1.  登录[消息队列 AMQP 控制台](https://amqp.console.aliyun.com)。在顶部导航栏，选择需查询的 Vhost 所在地域，即**华北2（上海）**。
+1.  登录[消息队列 AMQP 控制台](https://amqp.console.aliyun.com)。在顶部导航栏，选择需查询的 Vhost 所在地域，如**华北2（上海）**。
 
 2.  在左侧导航栏，单击 **Vhost 详情**。
 
@@ -49,9 +47,9 @@
 
     其中涉及的参数说明如下：
 
-    -   **Channel**：Channel 的具体 URL。Channel 的含义请参见[名词解释](../../../../cn.zh-CN/产品简介/名词解释.md#)
+    -   **Channel**：Channel 的具体 URL。Channel 的含义请参见[名词解释](../../../../cn.zh-CN/产品简介/名词解释.md#)。
     -   **State**：当前 Channel 的服务状态。
-    -   **Prefetch**：AMQP 0-9-1 协议通过指定 basic.qos 来实现消息消费中，限制某个 Channel（或 Connection）的 Unack 的消息数量。
+    -   **Prefetch**：AMQP 0-9-1 协议通过指定 basic.qos 来实现消息消费中，限制某个 Channel（或 Connection）的 Unack 的消息数量。
     -   **Unacked**：Consumer 未返回 Ack 的消息条数。
     -   **Publish（条/分钟）**：消息从 Producer 中发布的速度。Confirm（条/分钟）：Consumer 确认消费的消息。
     -   **Get（条/分钟）**：Consumer 通过 GET 方式订阅的消息的消费速度。
