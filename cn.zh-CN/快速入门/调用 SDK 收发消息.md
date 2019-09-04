@@ -1,6 +1,6 @@
 # 调用 SDK 收发消息 {#concept_102057_zh .concept}
 
-在创建完所有资源之后，便可调用消息队列 AMQP 的 SDK 收发消息。本文以 Java SDK 的 Demo 作为示例，提供调用 SDK 收发消息的流程以及相应代码示例。
+在控制台创建完所有资源之后，便可调用消息队列 AMQP 的 SDK 收发消息。本文以 Java SDK 的 Demo 作为示例，提供调用 SDK 收发消息的流程以及相应代码示例。
 
 若需其他语言或 Spring 框架下的示例代码，请参见 [Demo 工程与 SDK 下载](../../../../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
 
@@ -16,7 +16,7 @@
 
 ## 获取接入点 {#section_si3_h0n_fg7 .section}
 
-接入点会在配置 Binding Key、调用 Java SDK 收发消息时使用。
+在配置 Binding Key、调用 Java SDK 收发消息时，使用接入点。
 
 在控制台创建好资源后，需按以下步骤通过控制台获取 Producer 和 Consumer 的接入点。
 
@@ -24,7 +24,7 @@
 
 2.  在概览页面右上方，单击**获取接入点**。
 
-3.  在弹出的接入点对话框内单击**复制**即可获取接入点。
+3.  在弹出的接入点对话框内单击**复制**
 
 
 ## 引入依赖 {#section_qsz_jv4_k4v .section}
@@ -231,7 +231,7 @@ public class ProducerTest {
 2.  在 Queue 管理页面，在搜索输入框内输入需查看的 Queue，单击**搜索**。
 3.  在搜索结果中查看**堆积数量**，即可看到消息发送到服务器端的情况。
 
-**说明：** 此步骤演示的是第一次使用消息队列 AMQP 的场景，此时 Consumer 从未启动过，所以消息状态显示暂无消费数据。要启动 Consumer 并订阅消息请继续下一步订阅消息。
+**说明：** 此步骤演示的是第一次使用消息队列 AMQP 的场景，此时 Consumer 从未启动过，所以消息状态显示暂无消费数据。您需要启动 Consumer 并订阅消息。
 
 ## 订阅消息 {#section_y26_bfn_2kp .section}
 
