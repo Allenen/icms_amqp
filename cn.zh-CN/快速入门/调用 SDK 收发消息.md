@@ -1,8 +1,6 @@
 # 调用 SDK 收发消息 {#concept_102057_zh .concept}
 
-在控制台创建完所有资源之后，便可调用消息队列 AMQP 的 SDK 收发消息。本文以 Java SDK 的 Demo 作为示例，提供调用 SDK 收发消息的流程以及相应代码示例。
-
-若需其他语言或 Spring 框架下的示例代码，请参见 [Demo 工程与 SDK 下载](../../../../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
+在控制台创建完所有资源之后，您可以调用消息队列 AMQP 的 SDK 收发消息。本文以 Java SDK 作为示例，展示调用 SDK 收发消息的流程。
 
 ## 收发消息流程 {#section_si4_7bf_8bq .section}
 
@@ -12,19 +10,19 @@
 
 ## 前提条件 {#section_cyg_x9r_zro .section}
 
-您已创建调用 SDK 收发消息所需的所有资源。创建资源的具体操作，请参见[创建资源](cn.zh-CN/快速入门/创建资源.md#)。
+在调用 Java SDK 收发消息前，请确保您已[创建资源](cn.zh-CN/快速入门/创建资源.md#)。
 
 ## 获取接入点 {#section_si3_h0n_fg7 .section}
 
-在配置 Binding Key、调用 Java SDK 收发消息时，使用接入点。
+在配置 Binding Key、调用 Java SDK 收发消息时，需要使用接入点。
 
-在控制台创建好资源后，需按以下步骤通过控制台获取 Producer 和 Consumer 的接入点。
+获取接入点的步骤如下：
 
 1.  在[消息队列 AMQP 控制台](https://amqp.console.aliyun.com/?spm=a2c4g.11186623.2.10.23071e9aqGE54H)的左侧导航栏，单击**概览**。
 
 2.  在概览页面右上方，单击**获取接入点**。
 
-3.  在弹出的接入点对话框内单击**复制**
+3.  在接入点对话框，单击**复制**
 
 
 ## 引入依赖 {#section_qsz_jv4_k4v .section}
@@ -46,13 +44,13 @@
           </dependency>
     ```
 
-    `mq-amqp-client` 依赖的更多信息，请访问 [mq-amqp-client 源码](https://github.com/AliwareMQ/mq-amqp-client)。
+    `mq-amqp-client` 依赖的更多信息，请参见 [mq-amqp-client 源码](https://github.com/AliwareMQ/mq-amqp-client)。
 
 -   下载依赖 JAR 包方式
 
 ## 配置 CredentialsProvider {#section_lyk_qlj_zll .section}
 
-需配置 `CredentialsProvider` 类（Class）完成身份认证。
+配置 `CredentialsProvider` 类（Class）完成身份认证。
 
 ``` {#codeblock_53x_q49_k6y .language-java}
 import com.alibaba.mq.amqp.utils.UserUtils;
@@ -120,7 +118,7 @@ public class AliyunCredentialsProvider implements CredentialsProvider {
 
 ## 配置 Binding Key {#section_lzw_mzg_z8q .section}
 
-以下是以 Java SDK 发送消息为例进行说明。
+配置 `BindingKeyTest` 类（Class）完成绑定。
 
 ``` {#codeblock_1of_23m_5h2 .language-java}
 import com.google.common.collect.Maps;
@@ -172,7 +170,7 @@ public class BindingKeyTest {
 
 ## 发送消息 {#section_x0h_l0l_ydm .section}
 
-以下是以 Java SDK 发送消息为例进行说明。
+发送消息的示例代码如下：
 
 ``` {#codeblock_hxt_lhz_atk .language-java}
 import com.rabbitmq.client.Channel;
@@ -225,17 +223,17 @@ public class ProducerTest {
 
 **结果验证**
 
-消息发送后，您可以在控制台查看消息发送状态，步骤如下：
+消息发送后，您可以在控制台查看消息的发送状态，步骤如下：
 
-1.  在消息队列 AMQP 控制台的左侧导航栏，单击**Queue 管理**。
-2.  在 Queue 管理页面，在搜索输入框内输入需查看的 Queue，单击**搜索**。
-3.  在搜索结果中查看**堆积数量**，即可看到消息发送到服务器端的情况。
+1.  在[消息队列 AMQP 控制台](https://amqp.console.aliyun.com/?spm=a2c4g.11186623.2.10.23071e9aqGE54H)的左侧导航栏，单击**Queue 管理**。
+2.  在 Queue 管理页面的搜索输入框，输入需查看的 Queue，单击**搜索**。
+3.  在搜索结果中，查看**堆积数量**
 
-**说明：** 此步骤演示的是第一次使用消息队列 AMQP 的场景，此时 Consumer 从未启动过，所以消息状态显示暂无消费数据。您需要启动 Consumer 并订阅消息。
+**说明：** 首次使用消息队列 AMQP 发送消息时，Consumer 从未启动过，消息状态显示**暂无数据**。
 
 ## 订阅消息 {#section_y26_bfn_2kp .section}
 
-以下是以 Java SDK 发送消息为例进行说明。
+订阅消息的示例代码如下：
 
 ``` {#codeblock_2bv_rax_lum}
 import com.google.common.collect.Maps;
@@ -298,14 +296,16 @@ public class ConsumerTest {
 
 ## 结果验证 {#section_cxb_3c5_8ti .section}
 
-完成上述步骤后，您可以在控制台查看 Consumer 是否启动成功，即消息是否订阅成功。
+完成上述步骤后，您可以在消息队列 AMQP 控制台查看 Consumer 是否启动成功，即消息是否订阅成功。
 
-1.  在消息队列 AMQP 控制台左侧导航栏，单击 **Queue 管理**。
+1.  在[消息队列 AMQP 控制台](https://amqp.console.aliyun.com/?spm=a2c4g.11186623.2.10.23071e9aqGE54H)的左侧导航栏，单击 **Queue 管理**。
 
 2.  在 Queue 管理页面，在搜索输入框内输入需查看的 Queue，单击**搜索**。
 
-3.  在搜索结果中查看**上次消费时间**，即可看到消费的上次消息时间（最新被消费的消息发布到服务器的时间）。
+3.  在搜索结果中查看**上次消费时间**，即可查看最新被消费的消息发布到服务器的时间。
 
 
-完成以上所有步骤后，您就成功接入了消息队列 AMQP 服务，可以继续使用消息队列 AMQP 发送和订阅消息。
+## 更多信息 {#section_63p_lxn_dw8 .section}
+
+更多语言或 Spring 框架下的示例代码，请参见 [Demo 工程与 SDK 下载](../../../../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
 
