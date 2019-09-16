@@ -307,5 +307,5 @@ public class ConsumerTest {
 
 ## 更多信息 {#section_63p_lxn_dw8 .section}
 
-更多语言或 Spring 框架下的示例代码，请参见 [Demo 工程与 SDK 下载](../../../../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
+更多语言或 Spring 框架下的示例代码，请参见 [Demo 工程与 SDK 下载](../cn.zh-CN/SDK 参考/Demo 工程与 SDK 下载.md#)。
 
