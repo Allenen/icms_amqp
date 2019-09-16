@@ -8,8 +8,8 @@
 
 您已完成以下操作：
 
--   [开通消息队列 AMQP 服务](../../../../cn.zh-CN/快速入门/开通消息队列 AMQP 服务.md#)
--   [创建 Vhost](../../../../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
+-   [开通消息队列 AMQP](../cn.zh-CN/快速入门/开通消息队列 AMQP.md#)
+-   [创建 Vhost](../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
 
 **操作步骤**
 
@@ -48,8 +48,8 @@
 
 您已完成以下操作：
 
--   [开通消息队列 AMQP 服务](../../../../cn.zh-CN/快速入门/开通消息队列 AMQP 服务.md#)
--   [创建 Vhost](../../../../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
+-   [开通消息队列 AMQP](../cn.zh-CN/快速入门/开通消息队列 AMQP.md#)
+-   [创建 Vhost](../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
 -   [创建 Queue](#section_k0a_9iv_e2g)
 
 **操作步骤**
@@ -70,8 +70,8 @@
 
 您已完成以下操作：
 
--   [开通消息队列 AMQP 服务](../../../../cn.zh-CN/快速入门/开通消息队列 AMQP 服务.md#)
--   [创建 Vhost](../../../../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
+-   [开通消息队列 AMQP](../cn.zh-CN/快速入门/开通消息队列 AMQP.md#)
+-   [创建 Vhost](../cn.zh-CN/快速入门/创建资源.md#section_aqc_kem_4lu)
 -   [创建 Queue](#section_k0a_9iv_e2g)
 -   [创建 Exchange](cn.zh-CN/控制台使用指南/管理 Exchange.md#section_93p_eg9_ize)
 
