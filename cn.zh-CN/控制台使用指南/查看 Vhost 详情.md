@@ -19,7 +19,7 @@
 
     图中所涉及的参数说明如下：
 
-    -   **Connection**：Connection 的具体 URL。Connection 的含义请参见[名词解释](../../../../cn.zh-CN/产品简介/名词解释.md#)。
+    -   **Connection**：Connection 的具体 URL。Connection 的含义请参见[名词解释](../cn.zh-CN/产品简介/名词解释.md#)。
 
     -   **Accesskey**：您账户的 AccessKeyId。
 
@@ -29,7 +29,7 @@
 
     -   **Protocol**：当前使用的 AMQP 协议版本。
 
-    -   **Channels**：该 Connection 下的 Channel 数量。Channel 的含义请参见[名词解释](../../../../cn.zh-CN/产品简介/名词解释.md#)。
+    -   **Channels**：该 Connection 下的 Channel 数量。Channel 的含义请参见[名词解释](../cn.zh-CN/产品简介/名词解释.md#)。
 
     -   **From Client（条/分钟）**：消息在 Consumer 中消费的速度。
 
@@ -47,7 +47,7 @@
 
     其中涉及的参数说明如下：
 
-    -   **Channel**：Channel 的具体 URL。Channel 的含义请参见[名词解释](../../../../cn.zh-CN/产品简介/名词解释.md#)。
+    -   **Channel**：Channel 的具体 URL。Channel 的含义请参见[名词解释](../cn.zh-CN/产品简介/名词解释.md#)。
     -   **State**：当前 Channel 的服务状态。
     -   **Prefetch**：AMQP 0-9-1 协议通过指定 basic.qos 来实现消息消费中，限制某个 Channel（或 Connection）的 Unack 的消息数量。
     -   **Unacked**：Consumer 未返回 Ack 的消息条数。
