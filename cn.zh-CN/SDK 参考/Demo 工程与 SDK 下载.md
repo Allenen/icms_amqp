@@ -17,6 +17,7 @@ SDK 是通过在`pom.xml`文件中添加依赖来获取。
 |Node.js|[amqp-node-demo](https://github.com/AliwareMQ/amqp-demos/tree/master/amqp-node-demo)|
 |PHP|[amqp-php-demo](https://github.com/AliwareMQ/amqp-demos/tree/master/amqp-php-demo)|
 |Python|[amqp-python-demo](https://github.com/AliwareMQ/amqp-demos/tree/master/amqp-python-demo)|
+|ruby|[amqp-ruby-demo](https://github.com/AliwareMQ/amqp-demos/tree/master/amqp-ruby-demo)|
 |Java| -   [纯 Java](cn.zh-CN/SDK 参考/Java SDK.md#)
 -   [Spring Boot](https://github.com/AliwareMQ/amqp-demos/tree/master/amqp-springboot-demo/SprintBootDemo)
 -   [Spring](https://github.com/AliwareMQ/amqp-demos/tree/master/spring-rabbit-demo)
